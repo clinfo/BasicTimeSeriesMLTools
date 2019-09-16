@@ -9,7 +9,7 @@ fi
 
 
 mkdir -p data
-python clf.py --input_file ./sample.tsv -i 0 -t 1 -A 2 -H
+python convert_numpy.py --input_file ./sample.tsv -i 0 -t 1 -A 2 -H
 
 mkdir -p ./DeepKF/${name}
 rm -r ./DeepKF/${name}/data
